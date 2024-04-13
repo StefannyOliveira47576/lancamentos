@@ -7,15 +7,15 @@
 }
 
 #cabecalho{
-    padding: 0.1rem;
-    background-color: #b2b3da;
+    padding: 3rem;
+    background-color: #4d3147;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 #menu{
-    padding: 5rem;
+    padding: 1rem;
     justify-content: center;
 }
 
@@ -26,13 +26,111 @@
 }
 
 #menu li a{
-    color: white;
+    color: #c9b7c7;
     padding: 1rem;
     text-align: center;
     cursor: pointer;
 }
 
 #menu li a:hover{
-   color: #ececf6;
+   color: #0d0210;
    transition: 0.9s;
 }
+
+#iphone{
+    background-image: url(imagem/Prancheta\ 1.jpg);
+    padding: 13rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+
+#iphone h1{
+     color: rgba(0, 0, 0, 0.712);
+     font-size: 2em;
+    margin: 1px 1px 1px;
+}
+
+#iphone p{
+    font-size: 20px;
+    padding: 1rem;
+}
+
+#iphone button{
+    font-size: 18px;
+    border-radius: 1em;
+    height: 6vh;
+    width: 20vw;
+    border-color: #866a80;
+    background-color: #866a80;
+    color: white;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.459);
+    cursor: pointer;
+}
+
+#iphone button:hover{
+    border-color: #c9b7c7;
+    background-color: #c9b7c7;
+    color: #0d0210;
+    transition: 0.8s;
+}
+
+.secao-texto{
+    background-color: #0d0210;
+    display: flex;
+    color: #c9b7c7;
+    padding: 10rem;
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+}
+
+#gestao{
+    background-image: url(imagem/Banner\ -\ 02.png);
+    padding: 24rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rodape{
+    background-color: #4d3147; 
+    color: white; 
+    justify-content: space-evenly; 
+    padding: 2em; 
+    flex-wrap: wrap; 
+    display: flex;
+    font-size: 25px;
+}
+
+.lista{
+    padding: 2em;
+    display: flex;
+}
+
+.lista li{
+    margin-left: 20px;
+}
+
+.lista li a{
+    color:  #c9b7c7;
+    padding: 1rem;
+    align-items: end;
+    cursor: pointer;
+}
+
+.lista li a:hover {
+    color: #0d0210;; 
+    transition: 0.8s;
+}
+
+.rodape i{
+    color: #c9b7c7;
+    font-size: 32px;
+    background-color:#0d0210;
+    height: 4vh;
+    padding: 6px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
