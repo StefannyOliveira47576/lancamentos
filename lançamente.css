@@ -87,10 +87,21 @@
 
 #gestao{
     background-image: url(imagem/banner\ 2.jpg);
-    padding: 24rem;
+    padding: 10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#gestao h1{
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 2em;
+
+}
+
+#gestao p{
+    font-size: 20px;
+    margin: 10px 10px 10px auto;
 }
 
 
