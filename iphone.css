@@ -1,8 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    list-style: none;
     text-decoration: none;
+    list-style: none;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -47,3 +47,109 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.texto-camera{
+    background-color: #0d0210;
+    color: #c9b7c7;
+    padding: 6rem;
+    font-size: 22px;
+}
+
+.texto-camera h1{
+   padding: 20px;
+   text-align: center;
+   font-size: 30px;
+}
+
+#tela{
+    padding: 3em;
+    display: flex;
+}
+
+#tela h1{
+    font-size: 2em;
+    padding-left: 3px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+#tela p{
+    font-size: 1.20em;
+}
+
+.texto-tela{
+    background-color: #0d0210;
+    color: #c9b7c7;
+    padding: 6rem;
+    font-size: 22px;
+}
+
+.texto-tela h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#iphone{
+    background-image: url(imagem/banner\ 2.jpg);
+    padding: 10rem;
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#iphone h2{
+    color: rgba(0, 0, 0, 0.719);
+    font-size: 2rem;
+    padding: 2px;
+}
+
+#iphone p{
+    font-size: 20px;
+    margin: 10px 10px 10px auto;
+}
+
+.rodape{
+    background-color: #4d3147; 
+    color: white; 
+    justify-content: space-evenly; 
+    padding: 2em; 
+    flex-wrap: wrap; 
+    display: flex;
+    font-size: 25px;
+}
+
+.lista{
+    padding: 2em;
+    display: flex;
+}
+
+.lista li{
+    margin-left: 20px;
+}
+
+.lista li a{
+    color:  #c9b7c7;
+    padding: 1rem;
+    align-items: end;
+    cursor: pointer;
+}
+
+.lista li a:hover {
+    color: #0d0210;; 
+    transition: 0.8s;
+}
+
+.rodape i{
+    color: #c9b7c7;
+    font-size: 32px;
+    background-color:#0d0210;
+    height: 4vh;
+    padding: 6px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
